@@ -1,0 +1,43 @@
+# Python & Environments
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Secrets & Environment Variables
+.env
+*.env
+*.env.local
+.secret*
+
+# Audit Engine Storage & Transient Data
+audit-engine/storage/repos/
+audit-engine/storage/cache/
+audit-engine/storage/reports/archive/
+storage/repos/
+storage/cache/
+storage/reports/archive/
+
+# Keep storage directories tracked
+!audit-engine/storage/
+!audit-engine/storage/reports/
+!audit-engine/storage/reports/.gitkeep
+
+# Foundry & Node artifacts
+node_modules/
+out/
+cache/
+artifacts/
+broadcast/
+
+# IDE & OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
